@@ -1,0 +1,11 @@
+// Updated rules
+rules_version = '2';
+// Update
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /cars/{document=**} {
+      allow read: if true;
+      allow write: if true;
+    }
+  }
+}

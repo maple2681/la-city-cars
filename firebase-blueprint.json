@@ -1,0 +1,34 @@
+{
+  "collections": [
+    {
+      "name": "cars",
+      "description": "Store all fleet vehicles globally",
+      "fields": [
+        { "name": "id", "type": "string", "description": "Vehicle ID" },
+        { "name": "brand", "type": "string", "description": "Brand of the car" },
+        { "name": "model", "type": "string", "description": "Model of the car" },
+        { "name": "year", "type": "number", "description": "Year of manufacture" },
+        { "name": "category", "type": "string", "description": "Category (Sedan, SUV, etc)" },
+        { "name": "price", "type": "number", "description": "Purchase price" },
+        { "name": "estMonthly", "type": "number", "description": "Estimated monthly payment" },
+        { "name": "image", "type": "string", "description": "Thumbnail image base64" },
+        { "name": "images", "type": "array", "description": "Array of base64 images" },
+        { "name": "mileage", "type": "string", "description": "Vehicle mileage" },
+        { "name": "fuelType", "type": "string", "description": "Gas, Electric, etc" },
+        { "name": "transmission", "type": "string", "description": "Auto/Manual" },
+        { "name": "msrp", "type": "number", "description": "MSRP value" },
+        { "name": "driveType", "type": "string", "description": "FWD/RWD/AWD" },
+        { "name": "exteriorColor", "type": "string", "description": "Exterior color" },
+        { "name": "interiorColor", "type": "string", "description": "Interior color" },
+        { "name": "vin", "type": "string", "description": "VIN code" },
+        { "name": "stockNumber", "type": "string", "description": "Stock Number" },
+        { "name": "description", "type": "string", "description": "Description" },
+        { "name": "standardEquipment", "type": "string", "description": "Standard Equipment" }
+      ],
+      "rules": [
+        { "allow": "read", "condition": "true" },
+        { "allow": "write", "condition": "true" }
+      ]
+    }
+  ]
+}

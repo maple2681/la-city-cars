@@ -1,0 +1,6 @@
+{
+  "name": "LA City Cars",
+  "description": "A luxury light-mode car dealership website showcasing a curated collection of exceptional vehicles with seamless interactive features.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
